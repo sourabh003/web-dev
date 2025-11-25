@@ -1,0 +1,7 @@
+- https://javascript.info/
+    - javascript fundamentals
+
+    - implicit type conversion
+
+    - operators
+    
