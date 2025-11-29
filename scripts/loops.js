@@ -27,19 +27,23 @@ function runLoop() {
 	// do {
 	//     console.log('do while loop count: ' + count);
 	//     count++
-    // } while (count < 10)
-    
-    for (let count = 0; count <10; count++) {
-        console.log(count)
-    }
+	// } while (count < 10)
 
-    // for (let outer = 1; outer <= 5; outer++) {
-    //     let str = ""
-	// 	for (let inner = 1; inner <= outer; inner++) {
-    //         str += "*"
-    //     }
-    //     console.log(str);
+	// for (let count = 0; count <10; count++) {
+	//     console.log(count)
 	// }
+
+	// *
+	// **
+	// ***
+	// ****
+	// *****
+
+	let array = [1, 2, 3, 4, 5];
+
+	for (let outer = 0; outer < array.length; outer++) {
+        
+	}
 }
 
-// runLoop(); 
+runLoop();

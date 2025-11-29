@@ -18,7 +18,6 @@
 // !! , double NOT (converts to boolean)
 // ! , for variable (undefined, null, 0, "", NaN are true; others are false)
 
-
 // let name = "john";
 // let age = 17
 
@@ -48,13 +47,116 @@
 //     console.log("num absent");
 // }
 
-// function askForName() { 
+// function askForName() {
 //     let fName = prompt("Enter your name:");
 //     if (!fName) {
 //         askForName();
-//     } else { 
+//     } else {
 //         return fName
 //     }
 // }
 
 // let userName = askForName();
+
+// let number;
+// // let number = prompt("Enter a number:");
+
+// if (number === 1) {
+//     console.log("checking balance");
+// } else if(number === 2) {
+//     console.log("depositing money");
+// } else if(number === 3) {
+//     console.log("withdrawing money");
+// } else {
+//     console.log("invalid option");
+// }
+
+// let number = 4
+// let name = "john"
+
+// switch (number) {
+//     case 1:
+//         console.log("checking balance for " + name);
+//         // asdlfjsdf
+//         // asdlfjdslf
+//         // asdlfjdslflasdf
+//         // lasdfjds
+//         // lasdfdsf
+//         break;
+//     case 2:
+//         console.log("depositing money");
+//         break;
+//     case 3:
+//         console.log("withdrawing money");
+//         break;
+//     default:
+//         console.log("invalid option");
+// }
+
+// named anonymous function
+// const add1 = function() {
+//     console.log("anonymous function");
+// }
+
+// // named function
+// function sum(num1, num2) {
+// 	return num1 + num2;
+// }
+
+// // arrow functions
+// let num = 10;
+
+// //  arrow function
+// let add = () => {
+//     console.log("anonymous arrow function");
+// };
+
+// callback function
+// a function passed as an argument to another function
+
+// let morningGreeting = function (name) {
+//     console.log("Good morning, " + name);
+// }
+
+// let eveningGreeting = function (name) {
+//     console.log("Good evening, " + name);
+// }
+
+// // shared (common file)
+// function greetUser(name, greetingFunc) {
+//     greetingFunc(name)
+// }
+
+// greetUser("John", morningGreeting); // file 1 (import from common file)
+
+// greetUser("John", eveningGreeting); // file 2
+
+// setTimeout, setInterval
+
+// perform action after some time (setTimeout)
+
+// 1s = 1000ms
+// setTimeout(function () {
+//     console.log("This message is shown after 5 seconds");
+// }, 5000)
+
+// perform action repeatedly after some time interval
+// const interval = setInterval(function () {
+// 	console.log("hello");
+// }, 1000);
+
+// setTimeout(() => {
+// 	clearInterval(interval);
+// }, 10000);
+
+console.log("Conditions file loaded");
+
+
+const greeting = () => {
+    // alert("Hello, welcome to our website!");
+    document.getElementById('userName').innerText = "Welcome, User!";
+}
+
+
+
+// greeting()
